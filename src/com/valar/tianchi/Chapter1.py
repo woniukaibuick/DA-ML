@@ -7,6 +7,8 @@ from sklearn.datasets import   load_iris
 # Now, we split into a training and test set
 from sklearn.cross_validation import train_test_split
 
+### book : Python数据挖掘入门与实战
+
 dataset_filename = "D:/software/Python/DA/PDF/Code_REWRITE/Chapter 1/affinity_dataset.txt";
 x = np.loadtxt(dataset_filename)
 n_samples, n_features = x.shape
