@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../DA-ML/.idea/DA-ML.iml" filepath="$PROJECT_DIR$/../DA-ML/.idea/DA-ML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../GomokuPython-master/.idea/MyGomoku.iml" filepath="$PROJECT_DIR$/../GomokuPython-master/.idea/MyGomoku.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/PythonShut.iml" filepath="$PROJECT_DIR$/.idea/PythonShut.iml" />
+    </modules>
+  </component>
+</project>
