@@ -4,6 +4,8 @@ import  pandas as pd
 from collections import  defaultdict
 from operator import  itemgetter
 
+#APriori
+## improve with FP-Growth
 
 ratting_file_data = "D:/software/Python/data/ml-1m/ratings.dat" #UserID::MovieID::Rating::Timestamp
 movie_file_data = "D:/software/Python/data/ml-1m/movies.dat"  #MovieID::Title::Genres
@@ -87,12 +89,13 @@ rule_confidence = {candidate_rule: correct_counts[candidate_rule] / float(correc
 
 min_confidence = 0.9
 sorted_confidence = sorted(rule_confidence.items(), key=itemgetter(1), reverse=True)
-for index in range(5):
-    print("Rule #{0}".format(index + 1))
-    (premise, conclusion) = sorted_confidence[index][0]
-    print("Rule: If a person recommends {0} they will also recommend {1}".format(premise, conclusion))
-    print(" - Confidence: {0:.3f}".format(rule_confidence[(premise, conclusion)]))
-    print("")
+
+# for index in range(5):
+#     print("Rule #{0}".format(index + 1))
+#     (premise, conclusion) = sorted_confidence[index][0]
+#     print("Rule: If a person recommends {0} they will also recommend {1}".format(premise, conclusion))
+#     print(" - Confidence: {0:.3f}".format(rule_confidence[(premise, conclusion)]))
+#     print("")
 
 def getMovieNameByID(movie_id):
     title_object = movie_name_data[movie_name_data["MovieID"] == movie_id]["Title"]
