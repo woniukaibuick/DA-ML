@@ -1,0 +1,9 @@
+Name,Friends,BedtimeStories,DawnofthePlanetoftheApes,RoboCop,Fargo,CougarTown
+KaiZhou,4,3,5,,1,2
+ShuaiGe,,3.5,3,4,2.5,4.5
+MeiNv,3,4,2,3,2,3
+xiaoxianrou,2.5,3.5,3,3.5,2.5,3
+fengzhi,3,4,,5,3.5,3
+meinv,,4.5,,4,1,
+mincat,3,3.5,1.5,5,3.5,3
+alex,2.5,3,,3.5,,4
